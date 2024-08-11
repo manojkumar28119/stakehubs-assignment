@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+}
+
+.App{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #EEEEEE;
+}
+
+.first-card{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:576px) {
+  .first-card{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+.order-form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.order-type{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  align-self: center;
+  justify-content: center;
+}
+
+.label-order{
+  width: 200px;
+}
+.label{
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+button{
+  margin-top: 15px;
+  align-self: center;
+}
+.data-tables{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+.buyer-table{
+  margin-right: 10px;
+}
+.table-head{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.spinner-card{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
