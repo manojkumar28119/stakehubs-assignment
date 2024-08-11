@@ -29,5 +29,9 @@ The Stakehubs Order Matching System is a full-stack application designed to mana
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/stakehubs-order-matching-system.git
+git clone https://github.com/manojkumar28119/stakehubs-assignment.git
 cd stakehubs-order-matching-system
+
+
+## Deployed Link :
+https://stock-exchange-by-mk.netlify.app/
